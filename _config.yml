@@ -9,7 +9,7 @@ name: Ian Riera
 description: Computer Vision and Telecommunication Engineer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://github.com/IanRiera/IanRiera.github.io/blob/master/images/circle-cropped.png
+avatar: {{site.baseurl}}/images/circle-cropped.png
 
 #
 # Flags below are optional
