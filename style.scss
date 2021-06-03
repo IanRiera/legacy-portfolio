@@ -164,6 +164,7 @@ img {
   padding: 20px 0;
   border-bottom: 3px solid $lightGray;
   vertical-align: middle;
+  align-items: center;
   @include mobile {
     text-align: center;
 
@@ -191,6 +192,7 @@ img {
   float: left;
   text-align: center;
   vertical-align: middle;
+  align-items: center;
 
   @include mobile {
     float: none;
