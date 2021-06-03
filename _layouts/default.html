@@ -66,7 +66,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tr>
                   <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-                    <img src="{{site.baseurl}}/images/video_surveillance.png" alt="video_surveillance_png"
+                    <img src="{{site.baseurl}}/images/reid_gif_lite.gif" alt="video_surveillance_gif"
                       style="width:auto; height:auto; max-width:100%;" >
                   </td>
                   <td style="padding:2.5%;width:75%;vertical-align:middle">
@@ -83,7 +83,10 @@
                     <a href="https://arxiv.org/abs/2105.04908">arXiv</a> /
                     <a href="https://github.com/IanRiera/MCV-M6-Video-Traffic-Monitoring">code</a>
                     <p>
-                      Solution to the third track of the <a href="https://www.aicitychallenge.org/">AI-City Challenge</a>, that aims to track vehicles across multiple cameras placed in multiple intersections spread out over a city. The methodology followed focuses first in solving multi-tracking in a single camera and then extending it to multiple cameras using siamese networks and metric learning.
+                      Traffic monitoring solution to the third track of the <a href="https://www.aicitychallenge.org/">AI-City Challenge</a>. 
+                      The goal of this challenge is to track vehicles across multiple cameras placed in multiple intersections spread out over a city. 
+                      The project first focuses in solving multi-tracking in a single camera, using faster r-cnn for object detection and the kalman filter for tracking. 
+                      Then the solutions is extended to multiple cameras using siamese networks and metric learning.
                     </p>
                   </td>
                 </tr>
@@ -109,7 +112,8 @@
                     <a href="https://github.com/IanRiera/MCV-M4-3D-Vision">code</a> /
                     <a href="{{site.baseurl}}/pdfs/3D-reconstruction-urban-scenes.pdf">slides</a>
                     <p>
-                      3D reconstruction of buildings from a set of images taken from different points of view (frontal images of the façades and aerial images). Rectify the perspective distortion from a single view, estimate essential and fundamental matrix, calibrate a camera with a planar pattern, estimate the depth of points in the scene given two images, generate new views of the scene, and compute a 3D model either from a set of calibrated or uncalibrated cameras (SfM).
+                      This project presents different applications of homographies, structure from motion and 3D reconstruction of buildings from a set of images taken from different points of view, both in the calibrated and uncalibrated cameras scenario. 
+                      It presents how to rectify the perspective distortion from a single view, estimate the essential and fundamental matrices, calibrate a camera with a planar pattern, estimate the depth map given two images and generate new synthetic views of the scene.
                     </p>
                   </td>
                 </tr>
@@ -134,7 +138,7 @@
                     <a href="https://arxiv.org/abs/2105.04905">arXiv</a> /
                     <a href="https://github.com/IanRiera/MCV-M5-Object-Detection-and-Segmentation">code</a>
                     <p>
-                      Study of the behaviour of different configurations of RetinaNet, Faster R-CNN and Mask R-CNN (Detectron2) by a qualitative and quantitative evaluation on KITTI-MOTS, MOTSChallenge and out of context datasets.
+                      Study of the behaviour of different configurations of RetinaNet, Faster R-CNN and Mask R-CNN, using the Detectron2 framework. The evaluation is done both qualitatively and quantitatively on KITTI-MOTS, MOTSChallenge, Cityscapes and out of context datasets.
                     </p>
                   </td>
                 </tr>
@@ -159,7 +163,7 @@
                     <a href="https://arxiv.org/abs/2105.04895">arXiv</a> /
                     <a href="https://github.com/IanRiera/MCV-M3-Machine-Learning-for-Computer-Vision">code</a>
                     <p>
-                      Image classifier using both classic computer vision techniques (Bag of Visual Words classifier using SVM) and deep learning techniques (MLPs, InceptionV3 and our own CNN: TinyNet).
+                      Image classifier using both classic computer vision techniques, such as Bag of Visual Words classifier using SVM and logistic regression, and deep learning techniques, such as MLPs and InceptionV3. Finally we designed our own CNN: TinyNet.
                     </p>
                   </td>
                 </tr>
@@ -184,9 +188,9 @@
                     <em>arXiv</em>, 2021
                     <br>
                     <a href="https://arxiv.org/abs/2105.04891">arXiv</a> /
-                    <a href="https://github.com/oscarlorente/Museum-Painting-Retrieval">code</a>
+                    <a href="https://github.com/IanRiera/MCV-M1-Museum-Painting-Retrieval">code</a>
                     <p>
-                      Query by example CBIR system for finding paintings in a museum image collection using color, texture, text and feature descriptors in datasets with different perturbations in the images: noise, overlapping text boxes, color corruption and rotation.
+                      Query by example CBIR system for finding paintings matches in a museum database using color, texture, text and feature descriptors. The datasets used present different distortions in the images: background, noise, overlapping text boxes, color corruption and rotation.
                     </p>
                   </td>
                 </tr>
