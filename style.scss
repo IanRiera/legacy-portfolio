@@ -190,6 +190,7 @@ img {
 .site-info {
   float: left;
   text-align: center;
+  vertical-align: middle;
 
   @include mobile {
     float: none;
