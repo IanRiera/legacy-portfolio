@@ -72,7 +72,6 @@ p {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-display: auto;
-  margin: 15px 0;
 }
 
 a {
@@ -163,10 +162,11 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 3px solid $lightGray;
 
   @include mobile {
     text-align: center;
+	 text-align:
   }
 }
 
