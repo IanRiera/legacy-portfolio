@@ -204,12 +204,9 @@ img {
   text-align: center;
   vertical-align: middle;
   align-items: center;
+  padding-top: 5%;	
 
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
+
 }
 
 .site-name {
