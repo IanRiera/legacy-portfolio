@@ -1,3 +1,5 @@
+PERSONAL PORTFOLIO INFORMATION OBSOLETE. USABLE AS TEMPLATE.
+
 Portfolio created from the templates and workflow provided by [Barry Clark](https://github.com/barryclark)
 
 You can use the [Quick Start](https://github.com/barryclark/jekyll-now#quick-start) workflow with other themes that are set up to be forked too!:
